@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Paytone+One&display=swap');
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 40px 0 40px;
+}
+
+.logo {
+    height: 60px;
+    width: 128.06px;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBtn {
+    margin-left: 30px;
+
+    background-color: #5856ce;
+}
+
+.navBtn2 {
+    margin-top: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: #5856ce;
+}
+
+.navText {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* GET STARTED CONTAINER  */
+
+.GetStarted_Container {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.heading {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 48px;
+    color: #05034e;
+    margin-bottom: 20px;
+}
+
+/* CRM Acceleration container */
+.CRM {
+    background: #f2f2fd80;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.CRM_Acceleration {
+    text-align: center;
+}
+
+.crm_heading {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 39px;
+    color: #05034e;
+    margin-bottom: 40px;
+}
+
+.CRM_sections {
+    margin: 0 265px 0 265px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crm_icons {
+    display: flex;
+}
+#crm_h2 {
+    color: #05034e;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 27px;
+}
+
+#crm_icon1 {
+    height: 40px;
+    width: 45px;
+}
+#crm_icon2 {
+    height: 40px;
+    width: 40px;
+}
+
+#section-font {
+    margin-left: 20px;
+}
+
+#section {
+    padding: 40px;
+    font-size: 16px;
+}
+
+#crm_paragraphs {
+    width: 30rem;
+    margin-top: 20px;
+}
+
+/* dont just integrate */
+
+#section-integrate {
+    margin-top: 60px;
+}
+
+.Integrate {
+    display: flex;
+    margin: 140px 240px 0 240px;
+}
+
+.request_div {
+    background: #99d0ff;
+    border-radius: 28px;
+    padding: 2px 6px;
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#integrate_h1 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #05034e;
+}
+
+#integrate_section1 {
+    padding-top: 60px;
+    width: 30%;
+    margin-right: 30px;
+}
+
+#integrate_h2 {
+    font-family: 'Paytone One', sans-serif;
+    color: #05034e;
+    font-size: 28px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.integrate_img {
+    position: absolute;
+    width: 50rem;
+    right: 150px;
+}
+
+/* ........................................ */
+
+.kickstart {
+    display: flex;
+    margin-top: 350px;
+    margin: 140px 240px 0 240px;
+    padding-top: 100px;
+}
+
+.sendmail_div {
+    background: #99ffce;
+    border-radius: 28px;
+    padding: 2px 10px;
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.kickstart_div2 {
+    width: 40%;
+    padding-top: 40px;
+}
+
+.kickstart_div1 {
+    margin-right: 20px;
+}
+
+.blackbox {
+    display: flex;
+    margin: 140px 240px 0 240px;
+}
+
+.blackbox_sync {
+    background: #d299ff;
+    border-radius: 28px;
+    padding: 2px 20px;
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.reviews {
+    background: #f2f2fd;
+    padding: 60px;
+    transition: transform 1000ms ease-in;
+}
+
+.reviews-h1 {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    color: #05034e;
+    font-size: 31px;
+    line-height: 25px;
+}
+
+.carousel {
+    position: relative;
+    height: 500px;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.carousel_images {
+    width: 100%;
+}
+
+.carousel_track-container {
+    background: #5856ce;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.carousel_track {
+    padding: 0;
+    margin: 0;
+}
+.carousel_slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    transition: transform 2000ms ease-in;
+}
+
+.carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    border-radius: 100%;
+    background: white;
+    cursor: pointer;
+}
+
+.carousel_button img {
+    width: 24px;
+    height: 34px;
+}
+.carousel_button-left {
+    left: -50px;
+}
+
+.carousel_button-right {
+    right: -50px;
+}
+
+.carousel_review {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.carousel_quotes {
+    width: 50px;
+    height: 40px;
+}
+.carousel_logo {
+    width: 160px;
+    height: 100%;
+}
+
+.carousel_paragraph {
+    font-size: 20px;
+}
+
+.user img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.user_name {
+    font-size: 16px;
+    color: #05034e;
+}
+
+.user_post {
+    font: size 2px;
+    font-weight: normal;
+}
+
+.end {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    color: #05034e;
+    font-size: 31px;
+    line-height: 25px;
+}
